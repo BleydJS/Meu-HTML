@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social</title>
+</head>
+<body>
+    <h1>
+        Minhas redes sociais
+    </h1>
+    <h2>
+        Quem sou eu?
+        <br> <img src="att/foto-perfil-guanabara.png" alt="Guanabara">
+    </h2>
+    <p>
+        Meu nome é <strong>Bleydson Anderson</strong> sou motorista de app e atualmente eu estudo para ser um programador profissional um dia e ganhar muito dinheiro!
+    </p>
+    <h2>
+        Quer falar comigo?
+    </h2>
+    <p>
+        <ul>
+            <li>
+               <img src="att/icone-youtube.png" alt="youtube"> <a href="https://www.youtube.com/channel/UCNK892DDlPFx8SkDzTl0dVQ" target="_blank" rel="external">/Riot youtube</a> - Se inscreve la no canal do youtube 
+            </li>
+            <li>
+                <img src="att/icone-facebook.png" alt="facebook"><a href="https://www.facebook.com/bleydson.anderson/" target="_blank" rel="external">/Riot facebook</a> - me adicione como seu amigo
+            </li>
+            <li>
+                <img src="att/icone-instagram.png" alt="instagram"><a href="https://www.instagram.com/_bleyd/" target="_blank" rel="external">/Riot instagram</a> - me siga para saber das novidades
+            </li>
+        </ul>
+    </p>
+
+    <h2>Atividade dinamica</h2>
+
+    <p>
+        abrindo o site em varios dispositivos diferentes.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="att/pequena.jpg" type="image/jpeg">
+        <source media="(max-width:1050px)" srcset="att/media.jpg" type="image/jpeg">
+        <img src="att/grande.jpg" alt="grande"> <!--de acordo com o tamanho da tela..obs, fazer diferentes tamanhos de imagens para diferentes tamanhos de telas de dispositivos aqui foi respectivamente 300px 700px 1000px-->
+    </picture>
+
+    <p>
+        Agora vamos aos audios no site:
+    </p>
+
+     <audio src="musicas/natalina.mp3" controls></audio> <!--Jeito 1-->
+
+
+
+    <audio preload="metadata" controls>
+        <source src="musicas/natlina.mp3" type="audio/mpeg">
+        <source src="musicas/natalina.ogg" type="audio/ogg">
+        <source src="musicas/natalina.wav" type="audio/wav">
+        <p>
+            infelizmente nao poderemos reproduzir o audio
+            clique <a href="musicas/natalina.mp3">aqui e faça o downloads</a> 
+        </p>
+        <!--jeito 2-->
+    </audio>
+
+<!--entendeu? é pra caso um dos nao funcionar aparece a mensagem-->
+
+<p>
+    Agora vamos para video!
+    <p>
+        Atenção com os formatos aceitos, os mais tradicionais são mp4,m4v (mais recomendavel),webm,ogv.. 
+        <br>é sempre bom ter todos os formatos em seu site, justamente pq se nao funcionar um, funciona o outro.
+    </p>
+</p>
+
+<video src="videos/mexendonopc-mp4.mp4" width="500" controls loop></video> <!--jeito 1 menos usual pelo mesmo motivo do audio-->
+
+
+<video width="500" controls loop poster="livros/WhatsApp Image 2022-08-25 at 16.30.40.jpeg"> <!--thumbnail-->
+    <source src="videos/mexendonopc-mp4.mp4" type="video/mp4">
+    <source src="videos/mexendonopc-mp4.webm" type="video/webm">
+    <source src="videos/mexendonopc-mp4.m4v" type="video/m4v">
+    <p>
+        seu navegador nao conseguiu reproduzir o video.
+    </p>
+
+    <!--dica, sempre escolhe do menor tamanho pro maior-->
+</video>
+
+<p>
+    o terceiro jeito é o mais recomendado..TEM QUE TER UM CANAL NO youtube teu cliente, pois os videos dele
+    <br>pode ser puxados do proprio canal dele, nao consumindo sua banda da empresa, e sim do youtube. OU VIMEO QUE É OUTRO EXTREMAMENTE UTILIZADO..
+    <br>e tem ate mais opções ma hora de incorportar do que o proprio youtube..
+    <p>
+        e como fazer isso? assim: vai em qualquer video do yb, e clica em compartilhar/incorportar e copia, e aqui so cola.. 
+        <br>nem precisa colocar a tag video nem source..ja ta pronto.
+    </p>
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EV68ZiIue2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
