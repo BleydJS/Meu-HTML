@@ -1,2 +1,2 @@
 # Meu-HTML
-Tudo ou quase tudo de HTML
+Meu reforço em HTML / base de estudo e busca.
